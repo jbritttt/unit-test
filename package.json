@@ -4,9 +4,9 @@
   "description": "This repository contains code for unit testing with javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "coverage": "jest --coverage"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbritttt/unit-test.git"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jbritttt/unit-test#readme",
   "devDependencies": {
-    "jest": "^28.1.2"
+    "jest": "^28.1.2",
+    "jest-each": "^28.1.1"
   }
 }
